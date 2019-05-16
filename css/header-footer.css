@@ -1,0 +1,74 @@
+* {
+     box-sizing: border-box; 
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+
+
+.col:empty{
+    display:table-cell;height:75px;
+}
+
+.col.s6.m4{
+    display:flex;justify-content:space-around;
+}
+
+nav .brand-logo, nav ul a{
+    color:rgb(68, 68, 68);
+}
+
+ .page-footer.light-blue.gram-footer{
+    width:auto;height:30%;border:3px;background-color:#ee6e73;
+}
+
+.bg-none{
+    background-color:#ee6e73;
+}
+
+
+
+footer.gram-footer ul.collection > li.collection-header, footer.gram-footer ul.collection > li.collection-item{
+    background-image:initial;background-position-x:0px;background-position-y:0px;background-size:initial;background-repeat-x:initial;background-repeat-y:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-top-style:initial;border-right-style:initial;border-bottom-style:initial;border-left-style:initial;border-top-color:initial;border-right-color:initial;border-bottom-color:initial;border-left-color:initial;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;
+}
+
+footer.gram-footer ul.collection{
+    border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-top-style:initial;border-right-style:initial;border-bottom-style:initial;border-left-style:initial;border-top-color:initial;border-right-color:initial;border-bottom-color:initial;border-left-color:initial;border-image-source:initial;border-image-slice:initial;border-image-width:initial;border-image-outset:initial;border-image-repeat:initial;
+}
+
+footer.page-footer{
+    margin-top:50px;margin-right:0px;margin-bottom:0px;margin-left:0px;
+    clear: both;
+}
+
+
+@media (max-width: 768px){
+    .c13309{
+        width:80%;
+    }
+
+    #ib5mt{
+
+    }
+
+    #i8wu6d{
+        font-size:3vw;
+    }
+
+    .c6453{
+        width:90%;
+    }
+}
+
+
